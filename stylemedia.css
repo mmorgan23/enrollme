@@ -1,0 +1,884 @@
+body {
+	background-color: #CDDBE5;
+}
+
+#container {
+  width: auto;  
+	height: 733px;
+	max-height: 850px;
+  margin: 0 auto;
+}
+
+#magicbox {
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  background-color: #51DBAF;
+  display: block;
+ 	margin: 0 auto;
+}
+
+#header {
+	height: 80px;
+	background-color: white;
+	box-shadow: 0 2px 0 0 rgba(221,221,221,0.5);
+	border-bottom: 1px solid black;
+	border-top: 1px solid white;
+}
+
+#mainheading {
+	font-family: 'Lato', sans-serif;
+	margin-left: 10px;
+	margin-top: 25px;
+	font-size: 20px;
+    color: black;
+}
+
+.icon5 {
+    width: 183px;
+    height: 183px;
+    margin-top: 23.5px;
+}
+
+#gobrett {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+#arrowdow {
+	color: grey;
+	opacity: 0.5;
+	margin-left: 190px;
+	margin-top: 30px;
+	position: absolute;
+	font-size: 13px;
+}
+
+.pencilicon {
+    width: 25px;
+    height: auto;
+    position: absolute;
+    margin-left: 258px;
+    margin-top: -54px;
+}
+
+#enrolled23 {
+	font-size: 10px;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	margin-top: -10px;
+	padding-bottom: 10px;
+
+}
+
+#onefour23 {
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	padding-top: 3px;
+	
+}
+
+#boxtext2 {
+	margin-left: -240px;
+}
+
+
+#buttondiv {
+	float: right;
+	margin-top: -40px;
+}
+
+#line1 {
+	width: 90px;
+	float: left;
+	position: absolute;
+	margin-top: 12px;
+
+}
+
+#modalbutton {
+  height: 45px; 
+  width: 118px; 
+  border-radius: 3px; 
+  background: linear-gradient(90deg, #E81348 0%, #FF370F 100%); 
+  box-shadow: 0 3px 6px 0 rgba(194,16,57,0.42);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#body {
+	background-color: #CDDBE5;
+	width: auto;
+	height: auto;
+}
+
+#dropdown1 {
+  background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  width: 182px;
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  border: 1px solid #D3D3D3; 
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+#arrowdow2 {
+	color: grey;
+	opacity: 0.5;
+	margin-left: 90px;
+	font-size: 13px;
+}
+
+#icon1 {
+     font-size: 22px;
+     float: right;
+     margin-right: 15px;
+     margin-top: -35px;
+}
+
+.dropdown-menu {
+	margin-left: 10px;
+}
+
+#maintable {
+	border-right: 10px solid #CDDBE5;
+	border-left: 10px solid #CDDBE5;
+	margin-top: -5px;
+    position: relative;
+
+}
+
+#profilebox {
+	border-right: 10px solid #CDDBE5;
+	border-left: 10px solid #CDDBE5;
+	margin-top: 10px;
+    height: 519px;
+    display: block;
+    background-color: white;
+    
+}
+
+#leadrow {
+  background-color: white;
+  height: 68px;
+ 
+}
+
+#nameorder {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  
+}
+
+#checkBox1 {
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+#checkBox2 {
+	margin-left: 25px;
+	margin-top: 16px;
+}
+
+#nametext {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	padding-top: 20px;
+}
+
+#nametext2 {
+	font-size: 14px;
+	padding-top: 25px;
+}
+
+#classnum2 {
+	padding-top: 20px;
+}
+
+#classnumtwo {
+    margin-left: -200px;
+}
+
+#row1 {
+background-color: white;
+  height: 68px;
+}
+
+#invisible1 {
+background-color: white;
+  height: 68px;
+}
+
+#invisible2 {
+background-color: white;
+  height: 68px;
+}
+
+.idcard {
+	height: 22px;
+	width: 36px;
+	margin-top: 13px;
+}
+
+#arrowdow3 {
+	opacity: 0.5;
+	margin-top: 15px;
+}
+
+#arrowdow4 {
+	color: grey;
+	opacity: 0.5;
+	font-size: 13px;
+	margin-top: 15px;
+    margin-left: -5px;
+	
+}
+
+#arrowdow5 {
+	opacity: 0.5;
+	margin-top: 15px;
+    color: black;
+}
+
+#newtext2 {
+    color: black;
+    text-decoration: none;
+    margin-top: 17px;
+}
+
+#newtext {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#footermenu {
+ clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+ 
+}
+
+#footermenu2 {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: 19em;
+ 
+}
+
+.semicircle {
+	width: 70px;
+	height: 35px;
+
+}
+
+#block {
+	height: 10px;
+	display: block;
+	background-color: #1f2536;
+
+}
+
+#fname {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+#lname {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+#firstname {
+	height: 45px;	
+	width: 355px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#lastname {
+	height: 45px;	
+	width: 355px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#assigntext {
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;	
+}
+
+
+
+#line2 {
+	width: 90px;
+	float: right;
+	position: absolute;
+	margin-left: 225px;
+	margin-top: -18px;
+}
+
+#line23 {
+	width: 90px;
+	float: left;
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 13px;
+}
+
+
+#subject1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+#teacher1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+#dropdown2{
+	width: 355px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#dropdown3 {
+	width: 355px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#caret5 {
+	margin-left: 320px;
+}
+
+    .englishbut{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    }
+    
+    
+    .mathbut{
+    width: 95px;
+    height: auto;
+     margin-left: 50px;
+    margin-top: 15px;
+    }  
+    
+    .historybut{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+        margin-top: 13px;
+    }
+    
+    .sciencebut{
+    width: 90px;
+    height: auto;
+    margin-left: 50px;
+         margin-top: 13px;
+    }
+
+#addclass {
+	height: 45px;	
+	width: 355px;
+  border-radius: 3px; 
+  background: linear-gradient(270deg, #41B9FA 0%, #2395E5 100%);  
+  box-shadow: 0 3px 6px 0 rgba(36,150,229,0.46);
+	margin-top: 5px;
+}
+
+#dropdown7 {
+	width: 300px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#dropdown10 {
+	width: 180px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+    margin-top: -10px;
+}
+
+#dropdown15 {
+    width: 160px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+    margin-top: 5px;
+    margin-left: -100px;
+    
+}
+
+#thisis {
+    font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	margin-left: 5px;
+	color: black;
+	padding-top: 5px;
+}
+
+#sciencetext {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	margin-left: 25px;
+	color: black;
+	margin-top: -14px;
+}
+
+#msfield {
+	margin-top: 5px;
+}
+
+#caret6 {
+	float: right;
+	margin-left: 285px;
+	margin-top: -18px;
+}
+
+#caretp {
+    float: right;
+	margin-left: 285px;
+	margin-top: -22px;
+}
+
+#science {
+	background-color: #EEF3F5;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #D3D3D3; 
+}
+
+#sciencetwo {
+	background-color: white;
+	display: block;
+	border-radius: 3px;
+	border: 1px solid #D3D3D3; 
+}
+
+#science1 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#science2 {
+	
+	padding-bottom: 15px;
+}
+
+#sciencedot {
+	color: #24D840;
+	margin-top: 7px;
+}
+
+#sciencedottwo {
+    color: #38AAF9;
+	margin-top: 7px;
+}
+
+#mathdottwo {
+        color: #DB2951;
+	margin-top: 7px;
+}
+
+#historydottwo {
+    color: #882295;
+	margin-top: 7px;
+}
+
+#magicbox {
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  background-color: #51DBAF;
+  display: block;
+ 	margin: 0 auto;
+}
+
+.dropdown {
+	position: relative;
+}
+
+#dropdownteacher {
+	margin-top: -545px;
+	width: 353px;
+	position: absolute;
+	margin-left: 17px;
+}
+
+.optionbox {
+	width: 300px;
+	height: auto;
+	
+}
+
+#teachersel1 {
+	border-bottom: 1px solid #D3D3D3; 
+}
+
+#science5 {
+	color: grey;
+	font-size: 20px;
+	float: right;
+	margin-right: 30px;
+	margin-top: -53px;
+}
+
+
+
+#dropdownteacher {
+	margin-top: -545px;
+	width: 313px;
+	position: absolute;
+	margin-left: 17px;
+}
+
+.optionbox {
+	width: 250px;
+	height: auto;
+	
+}
+
+#pencil {
+        margin-left: 260px;
+    color: black;
+    margin-top: 324px;
+    position: absolute;
+    }    
+    
+#schoolclasses2 {
+    color: black;
+    font-size: 36px;
+    margin-top: -10px;
+    }
+    
+#gradelevel2 {
+    color: black;
+    font-size: 36px;
+    margin-top: -10px;
+    }
+    
+#averagegpa2 {
+    color: black;
+    font-size: 36px;
+    margin-top: -10px;
+ 
+    }
+
+#gradelevel1 {
+    color: black;
+    font-size: 13px;  
+    font-family: 'Lato', sans-serif;
+    }
+    
+#schoolclasses1{
+    color: black;
+    font-size: 13px;   
+    font-family: 'Lato', sans-serif;
+    }
+
+#averagegpa1 {
+    color: black;
+    font-size: 13px;   
+    font-family: 'Lato', sans-serif;
+    }
+    
+#gradelevel11 {
+        margin-left: -240px;
+    }
+    
+#schoolclasses {
+        margin-top: -67px;
+    }
+    
+#averagegpa {
+    margin-left: 230px;
+    margin-top: -68px;
+    }
+    
+#footerimage {
+    position: relative;
+    }
+    
+.footerimage2 {  
+    height: 65px;
+    width: auto;
+    position: relative;
+    
+    }
+    
+ #firstname {
+	height: 45px;	
+	width: 315px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+    
+#line1 {
+    width: 300px; 
+    margin-left: 25px;
+    }
+
+#lastname {
+	height: 45px;	
+	width: 315px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#dropdown2{
+	width: 315px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#dropdown3 {
+	width: 315px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#caret5 {
+	margin-left: 280px;
+}
+    
+#moretext {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 18px;
+    }
+
+    
+    .englishbut{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 15px;
+    }
+    
+    
+    .mathbut{
+    width: 95px;
+    height: auto;
+     margin-left: 50px;
+    margin-top: 15px;
+    }  
+    
+    .historybut{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+        margin-top: 13px;
+    }
+    
+    .sciencebut{
+    width: 90px;
+    height: auto;
+    margin-left: 50px;
+         margin-top: 13px;
+    }
+    
+#addclass {
+	height: 45px;	
+	width: 315px;
+  border-radius: 3px; 
+  background: linear-gradient(270deg, #41B9FA 0%, #2395E5 100%);  
+  box-shadow: 0 3px 6px 0 rgba(36,150,229,0.46);
+	margin-top: 5px;
+}
+
+#cancelb {	
+	height: 45px;	
+	width: 155px;	
+	border: 1px solid #979797;	
+	border-radius: 3px;	
+	background: linear-gradient(90deg, #93949A 0%, #929398 100%);	
+	box-shadow: 0 3px 5px 0 rgba(147,148,155,0.39);
+	color: white;
+}
+
+#saveb {	
+	height: 45px;	
+	width: 155px;	
+	border-radius: 3px;	
+	background: linear-gradient(90deg, #E81348 0%, #FF370F 100%);	
+	box-shadow: 0 3px 6px 0 rgba(194,16,57,0.42);
+
+}
+}
+
+
+
+
+@media (max-width: 320px) {
+ 
+#dropdownteacher {
+	margin-top: -545px;
+	width: 262px;
+	position: absolute;
+	margin-left: 17px;
+}
+
+.optionbox {
+	width: 230px;
+	height: auto;
+	
+}
+
+ #firstname {
+	height: 45px;	
+	width: 265px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#lastname {
+	height: 45px;	
+	width: 265px;
+	border: 1px solid grey; 
+	font-size: 14px;
+	padding-left: 15px;
+}
+
+#dropdown2{
+	width: 265px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#dropdown3 {
+	width: 265px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#caret5 {
+	margin-left: 225px;
+}
+
+#addclass {
+	height: 45px;	
+	width: 265px;
+  border-radius: 3px; 
+  background: linear-gradient(270deg, #41B9FA 0%, #2395E5 100%);  
+  box-shadow: 0 3px 6px 0 rgba(36,150,229,0.46);
+	margin-top: 5px;
+}
+
+#dropdown7 {
+	width: 255px;
+  height: 45px;
+   background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+    
+
+
+
+#cancelb {	
+	height: 45px;	
+	width: 175px;	
+	border: 1px solid #979797;	
+	border-radius: 3px;	
+	background: linear-gradient(90deg, #93949A 0%, #929398 100%);	
+	box-shadow: 0 3px 5px 0 rgba(147,148,155,0.39);
+	color: white;
+}
+
+#saveb {	
+	height: 45px;	
+	width: 175px;	
+	border-radius: 3px;	
+	background: linear-gradient(90deg, #E81348 0%, #FF370F 100%);	
+	box-shadow: 0 3px 6px 0 rgba(194,16,57,0.42);
+
+}
+
+    .footerimage2 {  
+    height: 70px;
+    width: auto;
+    position: relative;
+    
+    }
+

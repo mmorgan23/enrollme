@@ -1,0 +1,1028 @@
+body {
+
+}
+
+#container {
+  width: 1200px;  
+  height: 900px;
+  margin: 0 auto;
+  border: 1px solid #ebebeb;
+ 
+}
+
+.header {
+  border: 0;
+  height: 68px; 
+  width: 1200px;  
+  background-color: #1F2536;
+}
+
+#sbackground {
+  width: 1200px;  
+  height: 750px;
+  margin-top: 40px;
+  background-color: #CDDBE5;
+
+}
+
+.navbar-default {
+  background-color: #1F2536
+  border: 0;
+  height: 68px; 
+  width: 1200px;  
+}
+
+.logo {
+  width: 150px;
+  height: 40px;
+  margin-top: -4px;
+}
+
+.glyphicon-menu-down {
+}
+
+#arrowdow {
+  color: white;
+}
+
+#navlinks {
+  padding-top: 20px;
+  padding-right: 20px;
+  float: right;
+}
+
+.image1 {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.bluebox {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-left: 32px;
+  margin-top: -40px;
+}
+
+#studentnum {
+  color: white;
+  margin-right: 80px;
+  margin-top: -4px;
+  margin-left: 70px;
+  position: absolute;
+}
+
+.teacherstext {
+  color: #D3D3D3;
+  opacity: 0.6; 
+  color: #FFFFFF; 
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;  
+}
+
+.teachers {
+  float: left;
+  padding-right: 140px;
+}
+
+
+a:hover {
+  color: yellow;
+}
+
+
+#numupdate {
+  height: 20px; 
+  width: 20px;  
+  border-radius: 15px;  
+  background-color: #38AAF9;
+}
+
+
+.studentstext {
+  color: #D3D3D3;
+  color: #FFFFFF; 
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;  
+}
+
+.students {
+  float: left;
+  padding-right: 60px;
+}
+
+a:visited {
+    color: white;
+}
+
+#studentenrollment {
+  height: 89px;  
+  border: 1px; 
+  background-color: #FFFFFF;  
+  box-shadow: 0 2px 0 0 rgba(221,221,221,0.5);
+}
+
+
+h4 {
+  padding-top: 25px;
+  padding-left: 30px;
+  height: 27px; 
+  color: #1F2536; 
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;  
+  line-height: 27px;
+}
+
+.hline {
+  height: 39px;
+  padding-left: 220px;
+  margin-top: -15px;
+}
+
+#grade5 {
+  color: #AFBAC2;
+  font-family: 'Lato', sans-serif;
+  margin-top: -30px;
+  padding-left: 250px;
+}
+
+#arrowdow2 {
+  color: #AFBAC2;
+  padding-left: 320px;
+}
+
+#modalbutton {
+  height: 45px; 
+  width: 133px; 
+  border-radius: 3px; 
+  background: linear-gradient(90deg, #E81348 0%, #FF370F 100%); 
+  box-shadow: 0 3px 6px 0 rgba(194,16,57,0.42);
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+.modal-footer {
+  margin-right: 50px;
+}
+
+#arrowdiv {
+  margin-top: -25px;
+}
+
+#buttondiv{
+  float: right;
+  margin-top: -35px;
+  margin-right: 30px;
+}
+
+#tableframe {
+  background-color: #CDDBE5;
+  height:730px;
+  border: 2px solid white; 
+  margin-top: 40px;
+}
+
+.dropdown {
+  margin-left: 29px;
+  margin-top: 30px;
+}
+
+#dropdown1 {
+  background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  width: 182px;
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+}
+
+#caret {
+  margin-left: 100px;
+}
+
+.form-control {
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+#imaginary_container {
+  margin-top: -45px;
+}
+
+.container2 {
+  margin-left: 650px;
+  width: 500px;
+  border: 0.5px solid #c8c8c8;
+}
+
+.form-control {
+  background-color: white;
+ 
+}
+
+.input-group-addon {
+  background-color: white;
+  
+}
+
+#table1 {
+  width: 1140px;
+  margin-left: 30px;
+}
+
+#checkBox1 {
+margin-left: 20px;
+margin-bottom: 17px;
+}
+
+#checkBox {
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#checkBox2 {
+margin-left: 20px;
+margin-top: 20px;
+}
+
+#nametext {
+  padding-top: 25px;
+}
+
+.image2 {
+  width: 25px;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: -35px;
+}
+
+#classnum {
+  padding-top: 25px;
+}
+
+#gpa{
+  padding-top: 25px;
+  margin-left: 
+}
+
+
+#nameorder {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: -80px;
+  padding-bottom: 15px;
+}
+
+#enroll {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: -20px;
+  padding-bottom: 15px;
+}
+
+#gpatitle {
+  padding-bottom: 20px;
+}
+
+#leadrow {
+  background-color: white;
+  height: 68px;
+  width: 1141px;
+}
+
+#row1 {
+  background-color: white;
+  height: 68px;
+}
+
+#row2 {
+  background-color: white;
+  height: 68px;
+}
+
+#row3 {
+  background-color: white;
+  height: 68px;
+}
+
+#row4 {
+  background-color: white;
+  height: 68px;
+}
+
+#row5 {
+  background-color: white;
+  height: 68px;
+}
+
+#maintable {
+  width: 1141px;
+  margin-left: 30px;
+}
+
+#viewprofile {
+  background-color: #F4F7FA;
+  margin-top: 15px;
+  border: 1px solid #E8EBF0;
+  color: black;
+}
+
+/*modal code*/
+
+.modal-ku {
+
+  margin: auto;
+}
+
+#myModalLabel {
+  margin-top: -20px;
+  margin-left: 7px;
+}
+
+#myModal {
+    margin-top: 70px;
+    border-radius: 20px;
+}
+
+#firstname {
+  width: 374px;
+  height: 45px;
+  margin-left: 40px;
+  border: 1px solid #919AA1;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+   
+}
+
+#fname{
+  margin-left: 40px;
+}
+
+#lname{
+  margin-left: 440px;
+  margin-top: -75px;
+  padding-bottom: 12px;
+}
+
+#lastname {
+  width: 374px;
+  height: 45px;
+  margin-left: 440px;
+  margin-top: -32px;
+  border: 1px solid #919AA1;  
+  border-radius: 3px; 
+  padding-left: 15px;
+  font-size: 16px; 
+  font-family: 'Lato', sans-serif;
+
+}
+
+#cancelb {
+  height: 45px; 
+  width: 133px; 
+  border: 1px solid #979797;  
+  border-radius: 3px; background: 
+  linear-gradient(90deg, #93949A 0%, #929398 100%); 
+  box-shadow: 0 3px 5px 0 rgba(147,148,155,0.39);
+  color: white;
+  margin-right: 10px;
+
+}
+
+#saveb {
+  height: 45px; 
+  width: 133px; 
+  border-radius: 3px; 
+  background: linear-gradient(90deg, #E81348 0%, #FF370F 100%); 
+  box-shadow: 0 3px 6px 0 rgba(194,16,57,0.42);
+  color: white;
+}
+
+
+.lastp {
+    padding-bottom: 7px;
+}
+
+.dropdown-menu {
+    width: 180px;
+    height: 85px;
+}
+
+.pencilicon {
+    width: 35px;
+    height: auto;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 60px;
+}
+
+#line1 {
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 10px;
+  position: absolute;
+  background-color: black;
+}
+
+#line2 {
+  width: 300px;
+  margin-left: 510px;
+  margin-top: -10px;
+  position: absolute;
+  background-color: black;
+}
+
+#dropdown2 {
+    height: 45px; width: 299.59px;  
+    border: 1px solid #919AA1;  
+    border-radius: 3px; 
+    background-color: #FFFFFF;
+}
+
+#caret3 {
+  color: grey;
+  margin-left: 220px;
+}
+
+#dropdown3 {
+    height: 45px; width: 299.59px;  
+    border: 1px solid #919AA1;  
+    border-radius: 3px; 
+    background-color: #FFFFFF;
+}
+
+#caret4 {
+  color: grey;
+  margin-left: 250px;
+}
+
+#subject {
+  margin-left: 40px;
+}
+
+#teacher {
+  margin-left: 360px;
+  margin-top: -75px;
+}
+
+#addclass {
+  height: 45px; 
+  width: 133px; 
+  border-radius: 3px; 
+  background: linear-gradient(270deg, #41B9FA 0%, #2395E5 100%);  
+  box-shadow: 0 3px 6px 0 rgba(36,150,229,0.46);
+  margin-left: 680px;
+  margin-top: -70px;
+}
+
+#drop2{
+  margin-left: 55px;
+  margin-top: -35px;
+}
+
+#profile {
+  width: 1140px;
+  height: 262px;
+  background-color: white;
+  display: block;
+  margin-top: -720px;
+  position: absolute;
+  margin-left: 30px;
+}
+
+/*Studen.html CSS*/
+
+.profileicon {
+  width: 193px;
+  height: 193px;
+  margin-left: 60px;
+  margin-top: 34.5px;
+}
+
+#username {
+  color: black;
+  font-size: 30px;
+  margin-left: 185px;
+  position: absolute;
+  margin-top: 55px;
+}
+
+#pencil {
+  margin-left: 390px;
+  margin-top: 72px;
+  position: absolute;
+}
+
+#deleterow {
+  background-color: #38aaf9;
+  height: 75px;
+  width: 1140px;
+  margin-left: 30px;
+}
+
+#deletebut {
+  background-color: #38aaf9;
+  height: 40px;
+  width: 100px;
+  border: 1px solid white; 
+  border-radius: 1px; 
+  color: white;
+  margin-top: 17.5px;
+  margin-left: 200px;
+}
+
+
+#deletetext {
+  color: white;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+
+#deletetext2 {
+  color: white;
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+
+#science {
+  width: 775px;
+  height: 70px;
+  background-color: #eef3f5;
+  margin-left: 40px;
+  border-radius: 4px; 
+  margin-bottom: 10px;
+  border: 0.8px solid #DCDCDC; 
+}
+
+
+
+#caret5 {
+  margin-top: 5px;
+  margin-left: 125px;
+  position: absolute;
+  color: grey;
+}
+
+#sciencetext {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: -13px;
+}
+
+#sciencedot {
+  color: #24D840;
+
+}
+
+#science1{
+  margin-left: 436px;
+  margin-top: 12px;
+}
+
+
+
+#science2 {
+  margin-left: 254px;
+  margin-top: -45px;
+}
+
+#science10 {
+  margin-left: 254px;
+  margin-top: 5px;
+}
+
+#dropdown2 {
+  width: 263px;
+  height: 45px;
+
+}
+
+#fieldtext {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+#caret6 {
+  margin-top: -3px;
+  margin-left: 105px;
+  position: absolute;
+  color: grey;
+}
+
+#onefour {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#enrolled {
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+}
+
+#science3 {
+  margin-left: 603px;
+  margin-top: -38px;
+  padding-bottom: 5px;
+}
+ 
+#science4 {
+  margin-left: 599px;
+  margin-top: -18px;
+}
+
+#science5 {
+  margin-left: 725px;
+  margin-top: -34px;
+  color: #AFBAC2;
+}
+
+#x {
+  color: white;
+  margin-left: 800px;
+  width: 10px;
+  height: 10px;
+}
+
+#math {
+  width: 775px;
+  height: 70px;
+  background-color: white;
+  margin-left: 40px;
+  border-radius: 4px; 
+  border: 0.5px solid #DCDCDC; 
+}
+
+#math1{
+  margin-left: 15px;
+  margin-top: 12px;
+}
+
+#mathdot {
+  color: #DB2951;
+}
+
+#dropdownteacher {
+  width: 298px;
+  margin-top: -205px;
+  margin-left: 375px;
+}
+
+#teachersel1{
+  height: 65px;
+  padding-bottom: 30px;
+  border-bottom: solid #e6e6e6;
+
+}
+
+#teachersel2{
+  height: 65px;
+  padding-bottom: 30px;
+    background-color: white;
+   
+
+}
+
+.teachericon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  margin-top: 10px;
+}
+
+#fieldname {
+ 
+}
+
+#mathlecture {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+#teachdiv {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#mathdiv {
+  margin-top: -10px;
+  margin-left: 50px;
+}
+
+#teachert1 {
+  margin-left: 210px;
+  margin-top: -45px;
+}
+
+#teachert2 {
+  margin-left: 205px;
+  margin-top: -10px;
+}
+
+#mathname {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+
+}
+
+#sciencename {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+#dropdownstudent {
+  width: 264px;
+  margin-left: 55px;
+  margin-top: -200px;
+    background-color: white;
+}
+
+/*stdent.html - text classes*/
+
+#gradelevel1 {
+  margin-left: 354px;
+  margin-top: -89px;
+  font-size: 13px;
+}
+
+#gradelevel2 {
+  margin-left: 382px;
+  margin-top: 2px;
+  font-size: 43px;
+}
+
+#schoolclasses1 {
+  margin-left: 504px;
+  margin-top: -85px;
+  font-size: 13px;
+}
+
+#schoolclasses2 {
+  margin-left: 522px;
+  margin-top: 2px;
+  font-size: 43px;
+}
+
+#averagegpa1 {
+  margin-left: 650px;
+  margin-top: -85px;
+  font-size: 13px;
+}
+
+#averagegpa2 {
+  margin-left: 642px;
+  margin-top: 2px;
+  font-size: 43px;
+}
+
+#horline {
+  opacity: 0.3;
+  margin-left: 860px;
+  margin-top: -700px;
+}
+
+.bretttext {
+  font-size: 16px;
+}
+
+#bretttext {
+  margin-left: 930px;
+  position: absolute;
+  margin-top: -185px;
+  width: 200px;
+
+}
+
+#x2{
+  color: #E91445;
+  font-size: 20px;
+  margin-left: 930px;
+  margin-top: 324px;
+  position: absolute;
+}
+
+#check1 {
+  color: #04BDA0;
+  margin-left: 930px;
+  position: absolute;
+  margin-top: 324px;
+  margin-left: 1040px; 
+}
+
+#check2 {
+  color: #04BDA0;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 930px; 
+}
+
+#check3 {
+  color: #04BDA0;
+  position: absolute;
+  margin-top: 360px;
+  margin-left: 1040px; 
+}
+
+.glyphicon-ok-sign {
+  font-size: 20px;  
+}
+
+#englishbut {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+  margin-top: -15px;
+
+}
+
+#mathbut {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+#historybut {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+#sciencebut {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  margin-left: 30px;
+  margin-top: -15px;
+}
+
+#subject3 {
+  color: black;
+  margin-left: -420px;
+  padding-bottom: 5px;
+ font-family: 'Lato', sans-serif;
+ position: absolute;
+ margin-top: -35px;
+}
+
+#nameorder2 {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: -300px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+#enroll5 {
+  background-color: white;
+  border: none;
+  color: black;
+  margin-left: -100px;
+  position: absolute;
+  margin-top: -40px;
+}
+
+#sciencedot2 {
+  color: #38AAF9;
+}
+
+#sciencedot3 {
+  color: #DB2951;
+}
+
+#sciencedot4 {
+  color: #882295;
+}
+
+#nametext2 {
+  padding-top: 10px;
+
+}
+
+#dropdown7 {
+  background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  width: 182px;
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  margin-left: -420px;
+  margin-top: 0px;
+  position: absolute;
+
+}
+
+#dropdown9 {
+  background-color: white;
+  color: #474C4F;
+  border: 1px solid grey;
+  width: 182px;
+  height: 45px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  font-size: 14px;
+  margin-left: -285px;
+  margin-top: 3px;
+  position: absolute;
+}
+
+#gpa5 {
+  position: absolute;
+  margin-left: -85px;
+  margin-top: 10px;
+}
+
+#caret9 {
+  margin-left: 140px;
+  margin-top: -2px;
+  position: absolute;
+  color: grey;
+}
+
+#row7 {
+  background-color: white;
+  height: 68px;
+}
+
+#row8 {
+  background-color: white;
+  height: 68px;
+}
+
+#row9 {
+  background-color: white;
+  height: 68px;
+}
+
+#checkBox3 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#deleterow1 {
+  background-color: #38aaf9;
+  height: 75px;
+  width: 1140px;
+  margin-left: 30px;
+}
+
+#x3 {
+  color: white;
+  margin-left: 800px;
+  width: 10px;
+  height: 10px;
+}
+
+#magicbox {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  background-color: #51DBAF;
+  display: block;
+  margin-left: 900px;
+  margin-top: 15px;
+}
+
+#magic2 {
+  color: white;
+} 
+
+#magic3 {
+  color: white;
+  font-size: 30px;
+  
+}
+
+#magic4 {
+  color: white;
+  line-height: 22px;
+}

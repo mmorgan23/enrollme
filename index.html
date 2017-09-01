@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Enroll Me</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+     <script type="text/javascript" src="script.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <script type="text/javascript">
+
+      if (screen.width <= 450) {
+        window.location = "mobile.html";
+      }
+    </script>
+
+<div id="container">
+    
+    <div id="magicbox">
+
+        <center><h2 id="magic2">Excellent</h2></center>
+        <br>
+        <center><span class = "glyphicon glyphicon-ok" id="magic3"></span></center>
+        <br>
+        
+        <center><p id="magic4">A new student has <br>been successfully added.</p></center>  
+
+    </div>
+
+<!--header starts here-->
+    <div class="header">
+      <a class="navbar-brand" href="index.html">
+        <img alt="Brand" src="images/logo.png" href="index.html" class="logo">
+      </a>
+      <div id="navlinks">
+        <span id="icon1"><a href="index.html"><img alt="icon" src="images/icon1.png" class="image1"></a></span>
+        <span class="glyphicon glyphicon-menu-down" id="arrowdow"></span> 
+        <div class="students"><a class="studentstext" href="#">Students</a></div>
+        <div class="teachers"><a class="teacherstext" href="#">Teachers</a></div>
+        <div class="bluebox"><img alt="blue" src="images/boxicon.png" class="bluebox"></div>
+        <div id="studentnum"><p>5</p></div>
+      <!-- <div><button type="button" class="btn btn-info" id="numupdate">5</button></div>-->
+        </div>
+      </div>
+
+    <div id="studentenrollment"> 
+        <h4>Student Enrollment</h4>
+        <img alt="hline" src="images/horizontal-line.png" class="hline">
+        <h5 id="grade5">GRADE 4</h5>
+        <div id="arrowdiv"><span class="glyphicon glyphicon-menu-down" id="arrowdow2"></span></div>
+        <div id="buttondiv"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="modalbutton">Add Student</button></div>
+
+  
+<!-- Button trigger modal -->
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" class="modal-lg" role="document" id="modalcircle">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add a Student</h4>
+      </div>
+      <br>
+      <div class="modal-body">
+        <form action="/action_page.php">
+          <p id="fname">First name:</p>
+          <input type="text" name="firstname" value="" id="firstname">
+          <br>
+          <p id="lname">Last name:</p>
+          <input type="text" name="lastname" value="" id="lastname">
+        <br>
+        <br>
+        <br>
+        
+
+        <hr id="line1">
+        <center><strong>Assign Class</strong></center>
+        <hr id="line2">
+        <br>    
+        <br>
+      <!--modal subject button-->
+          <div id="subject"><p>Subject</p>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown2">
+          <span class="caret" id="caret3"></span></button>
+           <ul class="dropdown-menu" id="dropdownstudent">
+            <li><a href="#">
+            <div id="studentdiv"><p id="mathname">Math</p></div>
+            </a></li>
+            <li><a href="#">
+            <div id="studentdiv2"><p id="sciencename">Science</p></div>
+            </a></li>
+
+          </ul>
+          </div>
+
+          <!--modal teacher button-->
+          <div id="teacher"><p>Teacher</p>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown3">
+          <span class="caret" id="caret4"></span></button>
+          <ul class="dropdown-menu" id="dropdownteacher">
+            <li id="teachersel1"><a href="#">
+
+            <div id="teacherimage"><img alt="icon2" src="images/icon2.png" class="teachericon"></div>
+            <div id="teachdiv"><p id="fieldname"><strong>Mrs. Field</strong></p></div>
+            <div id="mathdiv"><p id="mathlecture">Math Lecture 1</p></div>
+            <div id="teachert1"><p id="onefour">14/23</p></div>
+              <div id="teachert2"><p id="enrolled"><strong>ENROLLED</strong></p></div>
+            </a></li>
+        
+            <li id="teachersel2"><a href="#"><div id="teacherimage"><img alt="icon2" src="images/icon2.png" class="teachericon"></div>
+            <div id="teachdiv"><p id="fieldname"><strong>Mrs. Field</strong></p></div>
+            <div id="mathdiv"><p id="mathlecture">Math Lecture 1</p></div>
+            <div id="teachert1"><p id="onefour">14/23</p></div>
+              <div id="teachert2"><p id="enrolled"><strong>ENROLLED</strong></p></div>
+              </a></li>
+          </ul>
+          </div>
+
+          <button type="button" class="btn btn-primary" id="addclass">Add Class</button>
+
+<!--science & math-->
+          <br>
+          <br>
+
+          <div id ="science">
+
+              <div id="science1"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown7"><span class="glyphicon glyphicon-unchecked" id="sciencedot"><p id="sciencetext">Science</p>
+              <span class="caret" id="caret5"></span></button>
+             </div>
+
+              <div id="science10"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown2"><p id="fieldtext">Mrs. Field</p>
+                <span class="caret" id="caret6"></span></button>
+               </div>
+
+              <div id="science3"><p id="onefour">14/23</p></div>
+              <div id="science4"><p id="enrolled">ENROLLED</p></div>
+              <div id="science5"><i class="glyphicon glyphicon-trash"></i></div>
+
+          </div>
+
+
+
+          <div id ="math">
+
+            <div id="math1"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown1"><span class="glyphicon glyphicon-unchecked" id="mathdot"><p id="sciencetext">Math</p>
+              <span class="caret" id="caret5"></span></button>
+            </div>
+
+              <div id="science2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown2"><p id="fieldtext">Mrs. Rocker</p>
+                <span class="caret" id="caret6"></span></button>
+                </div>
+
+              <div id="science3"><p id="onefour">14/23</p></div>
+              <div id="science4"><p id="enrolled">ENROLLED</p></div>
+              <div id="science5"><i class="glyphicon glyphicon-trash"></i></div>
+
+          </div>
+        </form> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="cancelb">Cancel</button>
+        <button type="button" class="btn btn-primary" id="saveb">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--delete button row-->
+
+
+<!--buttons-->
+  <div id="tableframe">
+        
+      <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown1">Sort by
+          <span class="caret" id="caret"></span></button>
+          <ul class="dropdown-menu">
+              <li><a href="#"><p class="lastp">Last Name</p></a></li>
+            <li><a href="#">First Name</a></li>
+          </ul>
+        </div>
+     
+
+      <div class="container2">
+          <div class="row">
+                    <div id="imaginary_container"> 
+                        <div class="input-group stylish-input-group">
+                            <input type="text" class="form-control"  placeholder="Search" >
+                            <span class="input-group-addon">
+                                <button type="submit" id="submit1">
+                                    <span class="glyphicon glyphicon-search"></span>
+                                </button>  
+                            </span>
+                        </div>
+                
+                </div>
+          </div>
+        </div>
+
+
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+ <!--Delete Row Section Option-->     
+      <div id="deleterow">
+          <p id="deletetext">1 student selected</p>
+          <p id="deletetext2">2 student selected</p>
+          <button id="deletebut">Delete</button>
+          <span class="glyphicon glyphicon-remove" id="x"></span>
+      </div>
+      
+      <br>
+<!--table-->
+                   <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                            <h3 id="myModalLabel">Delete</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p></p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                            <button data-dismiss="modal" class="btn red" id="btnYes">Confirm</button>
+                        </div>
+                   </div>
+
+                   <table class="table table-striped table-hover table-users" id="maintable">
+
+                    
+                          <thead>
+                            <tr id="leadrow">
+                              <th><input id="checkBox1" type="checkbox"></th>
+                              <th></th>
+                              <th><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="nameorder">Name
+                              <span class="caret" id="caret2"></span></button></th>
+                              <th class="hidden-phone"></th>
+                              <th><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="enroll">Enrolled Classes
+                              <span class="caret" id="caret2"></span></button></th>
+                              <th class="hidden-phone" id="gpatitle">GPA</th>
+                              <th></th>
+                            </tr>
+                          </thead>
+
+                          <tbody>
+                            
+                            <tr id="row1">     
+                              <td><input id="checkBox" type="checkbox"></td>
+                              <td><img alt="icon2" src="images/icon2.png" class="image2"></td>
+                              <td id="nametext">Anderson, Clarissa</td>
+                              <td class="hidden-phone"><button id="viewprofile">View Profile</button></td>
+                              <td class="hidden-phone" id="classnum">4</td>
+                              <td id="gpa">3.4 B</td>
+                              <td></td>
+                              </tr>
+
+                              <tr id="row2">   
+                              <td><input id="checkBox2" type="checkbox"></td>
+                              <td><img alt="icon2" src="images/icon2.png" class="image2"></td>
+                              <td id="nametext">Clark, Christina</td>
+                              <td class="hidden-phone"><button id="viewprofile">View Profile</button></td>
+                              <td class="hidden-phone" id="classnum">3</td>
+                              <td id="gpa">3.2 B</td>               
+                              <td></td>
+                              </tr>
+
+                             <tr id="row3">        
+                              <td><input id="checkBox" type="checkbox"></td>
+                              <td><img alt="icon2" src="images/icon2.png" class="image2"></td>
+                              <td id="nametext">Lopez, Nick</td>
+                              <td class="hidden-phone"><button id="viewprofile">View Profile</button></td>
+                              <td class="hidden-phone" id="classnum">3</td>
+                              <td id="gpa">3.0 B-</td>
+                              <td></td>
+                              </tr>
+                               
+                              <tr id="row4">      
+                              <td><input id="checkBox" type="checkbox"></td>
+                              <td><img alt="icon2" src="images/icon2.png" class="image2"></td>
+                              <td id="nametext">Robinson, Eric</td>
+                              <td class="hidden-phone"><button id="viewprofile">View Profile</button></td>
+                              <td class="hidden-phone" id="classnum">4</td>
+                              <td id="gpa">2.8 B</td>
+                              <td></td>
+                              </tr>
+                              
+                              <tr id="row5">      
+                              <td><input id="checkBox" type="checkbox"></td>
+                              <td><img alt="icon2" src="images/icon2.png" class="image2"></td>
+                              <td id="nametext">Sanchez, Brett</td>
+                              <td class="hidden-phone"><a href="student.html"><button id="viewprofile">View Profile</button></a></td>
+                              <td class="hidden-phone" id="classnum">3</td>
+                              <td id="gpa">4.0 A</td>
+                              <td></td>
+                              </tr>
+
+                              </tbody>
+
+                          </table>
+    
+            </div>
+  
+    </div>
+
+
+  </body>
+</html>

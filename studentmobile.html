@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="stylemedia.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+     <script type="text/javascript" src="script.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+      
+
+
+<div id="container">
+
+<!--<div id="magicbox">
+
+        <center><h2 id="magic2">Excellent</h2></center>
+        <br>
+        <center><span class = "glyphicon glyphicon-ok" id="magic3"></span></center>
+        <br>
+        
+        <center><p id="magic4">A new student has <br>been successfully added.</p></center>  
+
+    </div>-->
+
+  <div id="header">
+      <a href="index.html"><h3 id="mainheading">Student Enrollment</h3></a>
+  <div id="arrowdiv"><span class="glyphicon glyphicon-menu-down" id="arrowdow"></span></div>
+   <div id="buttondiv"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="modalbutton">Add Class</button></div>
+
+  <!--modal-->
+   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" class="modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Add a Class</h4>
+      </div>
+      <br>
+      <div class="modal-body">
+        <form action="/action_page.php">       
+        
+      <!--modal subject button-->
+          <div id="subject"><p id="subject1">Subject</p>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown2">
+          <span class="caret" id="caret5"></span></button>
+
+          </div>
+
+            <br>
+
+      <div id="subject"><p id="subject1">Teacher</p>
+          <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown2">
+          <span class="caret" id="caret5"></span></button>
+             <ul class="dropdown-menu" id="dropdownteacher">
+            <li id="teachersel1"><a href="#">
+
+            <div id="teacherimage"><img alt="icon2" src="images/optionbox.png" class="optionbox"></div>
+           </li>
+
+            <li id="teachersel2"><a href="#">
+
+            <div id="teacherimage"><img alt="icon2" src="images/optionbox.png" class="optionbox"></div>
+           </li>
+            </ul>
+
+          </div>
+
+        <br>
+
+          <!--modal teacher button-->
+     
+          <br>
+          <button type="button" class="btn btn-primary" id="addclass">Add Class</button>
+
+<!--science & math-->
+          <br>
+          <br>
+
+          <div id ="science">
+
+              <center><div id="science1"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown7"><span class="glyphicon glyphicon-unchecked" id="sciencedot">
+              <p id="sciencetext">Science</p></span>
+              <span class="caret" id="caret6"></span></button>
+             </div>
+
+             <div id="science2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown7">
+              <p id="msfield">Mrs. Filed</p></span>
+              <span class="caret" id="caret6"></span></button>
+             </div>
+
+                <div id="boxtext2">
+              <p id="onefour23">14/23</p>
+              <p id="enrolled23">ENROLLED</p>
+            </div>
+              <div id="science5"><i class="glyphicon glyphicon-trash"></i></div>
+
+          </div>
+<br>
+
+    <div id ="sciencetwo">
+
+              <center><div id="science1"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown7"><span class="glyphicon glyphicon-unchecked" id="sciencedot">
+              <p id="sciencetext">Science</p></span>
+              <span class="caret" id="caret6"></span></button>
+             </div>
+
+             <div id="science2"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown7">
+              <p id="msfield">Mrs. Filed</p></span>
+              <span class="caret" id="caret6"></span></button>
+             </div>
+
+                <div id="boxtext2">
+              <p id="onefour23">14/23</p>
+              <p id="enrolled23">ENROLLED</p>
+            </div>
+              <div id="science5"><i class="glyphicon glyphicon-trash"></i></div>
+
+          </div>
+         
+        </form> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="cancelb">Cancel</button>
+        <button type="button" class="btn btn-primary" id="saveb">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  </div>
+
+ 
+
+<div id="body">
+
+<div id="profilebox">
+    <center><img alt="iconimage" src="images/icon2.png" class="icon5"></center>
+    <center><h2 id="gobrett">Brett Sanchez</h2></center>
+    
+    <br>
+     <img alt="pencilicon2" src="images/pencilicon.png" class="pencilicon">
+    
+    <!--<span class="glyphicon glyphicon-pencil" id="pencil"></span>-->
+    
+    <center><div id="gradelevel11"><p id="gradelevel1">GRADE LEVEL</p>
+        <h2 id="gradelevel2">4</h2></div></center>
+
+    <center><div id="schoolclasses"><p id="schoolclasses1">CLASSES</p>
+    <h2 id="schoolclasses2">3</h2></div></center>
+
+    <center><div id="averagegpa"><p id="averagegpa1">AVERAGE GPA</p>
+        <h2 id="averagegpa2">3.4B</h2></div></center>
+    
+    <center><hr id="line1"></center>
+    <br>
+    
+    <center><h4 id="moretext">80% of Class Enrollment Complete</h4></center>
+    
+    <img alt="englishbut" src="images/englishbut.png" class="englishbut">
+    <img alt="mathbut" src="images/mathbut.png" class="mathbut">
+    <br>
+    <img alt="historybut" src="images/historybut.png" class="historybut">
+    <img alt="sciencebut" src="images/sciencebut.png" class="sciencebut">
+    
+</div>    
+    
+<!--table-->
+  <br>
+   <table class="table table-striped table-hover table-users" id="maintable">
+
+                          <thead>
+                            <tr id="leadrow">
+                              <th><input id="checkBox1" type="checkbox"></th>
+                              <th><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="nameorder">Subject
+                              
+                              <th></th>
+                              <th></th>
+                              <th></th>
+                             
+                            </tr>
+                          </thead>
+
+                          <tbody>
+
+                            <tr id="row1">     
+                              <td><input id="checkBox2" type="checkbox"></td>
+                              <td id="nametext"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown10"><span class="glyphicon glyphicon-unchecked" id="sciencedottwo">
+                                <p id="sciencetext">Science</p></span>
+                                  <span class="caret" id="caret6"></span></button></td>
+                              <td class="hidden-phone"></td>
+                              <td class="hidden-phone" id="classnum">
+                              <span class="glyphicon glyphicon-menu-down" id="arrowdow5"></span> 
+                              <span class="glyphicon glyphicon-chevron-up" id="arrowdow4"></span></td>
+                              
+
+                              <td></td>
+                            </tr>
+
+                            <tr id="invisible1">     
+                              <td></td>
+                                <td id="nametext2"><p id="newtext">Teacher</p></td>
+                             
+                              <td class="hidden-phone" id="classnumtwo">
+                         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown15">
+                                <p id="thisis">Mrs. Field</p>
+                                  <span class="caret" id="caretp"></span></button>
+                               
+                               </td>
+                                 <td></td>
+                              <td></td>
+                            </tr>
+
+                              <tr id="invisible2">     
+                              <td></td>
+                                  <td id="nametext2"><p id="newtext">GPA</p></td>
+                             
+                              <td class="hidden-phone" id="classnumtwo"><p id="newtext2">
+                                  3.4</p></td>
+                              <td></td>
+                                   <td></td>
+                            </tr>
+
+
+
+                           
+                            <tr id="row1">     
+                              <td><input id="checkBox2" type="checkbox"></td>
+                              <td id="nametext"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown10"><span class="glyphicon glyphicon-unchecked" id="mathdottwo">
+                                <p id="sciencetext">Math</p></span>
+                                  <span class="caret" id="caret6"></span></button></td>
+                              <td class="hidden-phone"></td>
+                              <td class="hidden-phone" id="classnum">
+                              <span class="glyphicon glyphicon-menu-down" id="arrowdow5"></span> 
+                              
+
+                              <td></td>
+                            </tr>
+
+                          
+                            <tr id="row1">     
+                              <td><input id="checkBox2" type="checkbox"></td>
+                              <td id="nametext"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown10"><span class="glyphicon glyphicon-unchecked" id="historydottwo">
+                                <p id="sciencetext">History</p></span>
+                                  <span class="caret" id="caret6"></span></button></td>
+                              <td class="hidden-phone"></td>
+                              <td class="hidden-phone" id="classnum">
+                              <span class="glyphicon glyphicon-menu-down" id="arrowdow5"></span> 
+                              
+                              
+
+                              <td></td>
+                            </tr>
+
+                        
+                            
+                         
+                            
+      
+                          </tbody>
+                          </table>
+
+                       
+                      
+                         
+                        
+</div>
+</div>
+    
+ <!--<br>
+      <br>
+      <br>-->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+        <br>
+      <br>
+      <br>
+<a href="menu.html"><div id="footerimage">
+      <center><img alt="iconimage" src="images/footerimage.png" class="footerimage2"></center>
+      </div></a>
+            <!--  <div id="footermenu2">
+                          <center><a href= "menu.html"><img alt="menubutton" src="images/menubutton.png" class="semicircle"></a>
+                       </center>
+                          <div id="block"></div>
+                          </div>-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </body>
+</html>
